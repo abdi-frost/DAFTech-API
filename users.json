@@ -118,6 +118,16 @@
         "color": "Gray",
         "mileage": null,
         "imageUrl": null
+      },
+      {
+        "id": 2,
+        "userId": "1720012892357",
+        "model": "Mercedes G-wagon",
+        "year": 2022,
+        "plateNumber": "C23434",
+        "color": "Black",
+        "mileage": null,
+        "imageUrl": null
       }
     ]
   }
