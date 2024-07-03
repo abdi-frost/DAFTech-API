@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1719943133839,
+    "firstName": "Test",
+    "lastName": "User",
+    "username": "testuser",
+    "email": "testuser@example.com",
+    "password": "pwd",
+    "phoneNumber": "1234567890",
+    "dateOfBirth": "1990-01-01T00:00:00.000Z",
+    "profilePicture": "https://example.com/profile.jpg",
+    "spouseFirstName": "Jane",
+    "spouseLastName": "Doe",
+    "relationshipStartDate": "2020-01-01T00:00:00.000Z",
+    "cars": [
+      {
+        "id": 1,
+        "userId": "1719943133839",
+        "model": "Lexus",
+        "year": 2023,
+        "plateNumber": "A23423",
+        "color": null,
+        "mileage": null,
+        "imageUrl": null
+      },
+      {
+        "id": 2,
+        "userId": "1719943133839",
+        "model": "Takoma",
+        "year": 2023,
+        "plateNumber": "C24323",
+        "color": "Grey",
+        "mileage": null,
+        "imageUrl": null
+      },
+      {
+        "id": 3,
+        "userId": "1719943133839",
+        "model": "Ford Raptor",
+        "year": 1999,
+        "plateNumber": "A02342",
+        "color": "White",
+        "mileage": null,
+        "imageUrl": null
+      },
+      {
+        "id": 4,
+        "userId": "1719943133839",
+        "model": "Ford Raptor",
+        "year": 1999,
+        "plateNumber": "A02342",
+        "color": "White",
+        "mileage": null,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "id": 1720004107020,
+    "firstName": "Abebe",
+    "lastName": "biru",
+    "gender": "Male",
+    "dateOfBirth": "2024-07-07",
+    "email": "abdimegersa14@gmail.com",
+    "phoneNumber": "0900901056",
+    "address": "Addis Ababa, Arat Kilo",
+    "profilePicture": "",
+    "spouseFirstName": "gdi",
+    "spouseLastName": "dagiseq",
+    "relationshipStartDate": "",
+    "username": "abebe",
+    "password": "password",
+    "cars": [
+      {
+        "id": 1,
+        "userId": "1720004107020",
+        "model": "Hilux",
+        "year": 2021,
+        "plateNumber": "B23423",
+        "color": "Red",
+        "mileage": null,
+        "imageUrl": null
+      },
+      {
+        "id": 2,
+        "userId": "1720004107020",
+        "model": "Tuskcson",
+        "year": 2023,
+        "plateNumber": "C234543",
+        "color": "Black",
+        "mileage": null,
+        "imageUrl": null
+      }
+    ]
+  },
+  {
+    "id": 1720012892357,
+    "firstName": "Abraham",
+    "lastName": "Tarefe",
+    "gender": "Male",
+    "dateOfBirth": "2024-06-30",
+    "email": "abra@gmail.com",
+    "phoneNumber": "0900901056",
+    "address": "Addis Ababa, Arat Kilo",
+    "profilePicture": "",
+    "spouseFirstName": "Esuwa",
+    "spouseLastName": "Nat",
+    "relationshipStartDate": "2024-07-01",
+    "username": "abraham",
+    "password": "password",
+    "cars": [
+      {
+        "id": 1,
+        "userId": "1720012892357",
+        "model": "Takoma",
+        "year": 2004,
+        "plateNumber": "C2343451",
+        "color": "Gray",
+        "mileage": null,
+        "imageUrl": null
+      }
+    ]
+  }
+]
