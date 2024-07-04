@@ -46,5 +46,105 @@
     └── utils
         └── validation.js
 ```
+<hr>
+#Api end points
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Method</th>
+      <th>Description</th>
+      <th>Request Body</th>
+      <th>Response Body</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Cars API Endpoints -->
+    <tr>
+      <td>/api/cars</td>
+      <td>GET</td>
+      <td>Retrieve all cars</td>
+      <td>-</td>
+      <td>Array of car objects</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/cars/:id</td>
+      <td>GET</td>
+      <td>Retrieve a specific car by ID</td>
+      <td>-</td>
+      <td>Single car object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/cars</td>
+      <td>POST</td>
+      <td>Create a new car</td>
+      <td>JSON object: { model: string, year: number, plateNumber: string, color: string }</td>
+      <td>Newly created car object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/cars/:id</td>
+      <td>PUT</td>
+      <td>Update an existing car by ID</td>
+      <td>JSON object: { model: string, year: number, plateNumber: string, color: string }</td>
+      <td>Updated car object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/cars/:id</td>
+      <td>DELETE</td>
+      <td>Delete a car by ID</td>
+      <td>-</td>
+      <td>Deleted car object</td>
+      <td>Requires authentication</td>
+    </tr>
+
+    <!-- Users API Endpoints -->
+    <tr>
+      <td>/api/users</td>
+      <td>GET</td>
+      <td>Retrieve all users</td>
+      <td>-</td>
+      <td>Array of user objects</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>GET</td>
+      <td>Retrieve a specific user by ID</td>
+      <td>-</td>
+      <td>Single user object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/users</td>
+      <td>POST</td>
+      <td>Create a new user</td>
+      <td>JSON object: { username: string, email: string, password: string }</td>
+      <td>Newly created user object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>PUT</td>
+      <td>Update an existing user by ID</td>
+      <td>JSON object: { username: string, email: string, password: string }</td>
+      <td>Updated user object</td>
+      <td>Requires authentication</td>
+    </tr>
+    <tr>
+      <td>/api/users/:id</td>
+      <td>DELETE</td>
+      <td>Delete a user by ID</td>
+      <td>-</td>
+      <td>Deleted user object</td>
+      <td>Requires authentication</td>
+    </tr>
+  </tbody>
+</table>
 
 
