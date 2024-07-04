@@ -15,14 +15,12 @@
 		<em>Developed with the software and tools below.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="Javascript">
 	<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
 	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 	<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
 </p>
 <hr>
-
----
 
 ##  Repository Structure
 
@@ -49,18 +47,4 @@
         └── validation.js
 ```
 
----
-
-##  Modules
-
-<details closed><summary>.</summary>
-
-| File                                                                               | Summary                                  |
-| ---                                                                                | ---                                      |
-| [cars.json](https://github.com/abdi-frost/daftech-api/blob/master/cars.json)       | HTTP error 401 for prompt `cars.json`    |
-| [server.js](https://github.com/abdi-frost/daftech-api/blob/master/server.js)       | HTTP error 401 for prompt `server.js`    |
-| [package.json](https://github.com/abdi-frost/daftech-api/blob/master/package.json) | HTTP error 401 for prompt `package.json` |
-| [users.json](https://github.com/abdi-frost/daftech-api/blob/master/users.json)     | HTTP error 401 for prompt `users.json`   |
-
-</details>
 
